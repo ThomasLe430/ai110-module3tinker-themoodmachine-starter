@@ -50,6 +50,12 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+
+    "That's okay...",
+    "Codepath is awesome!",
+    "I don't like this class >:(",
+    "I want to try it out 😄",
+    "I have a love-hate relationship with him", 
 ]
 
 # Human labels for each post above.
@@ -65,9 +71,14 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "neutral",   # "That's okay..."
+    "positive",  # "Codepath is awesome!"
+    "negative",  # "I don't like this class >:()"
+    "positive",  # "I want to try it out 😄"
+    "mixed",     # "I have a love-hate relationship with him"
 ]
 
-# TODO: Add 5-10 more posts and labels.
+
 #
 # Requirements:
 #   - For every new post you add to SAMPLE_POSTS, you must add one
